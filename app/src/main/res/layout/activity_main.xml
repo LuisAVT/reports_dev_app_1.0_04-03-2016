@@ -38,7 +38,7 @@
             android:layout_above="@+id/imageView2"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginLeft="38dp"
+            android:layout_marginLeft="35dp"
             android:layout_marginStart="38dp"
             android:layout_marginBottom="87dp"
             android:visibility="invisible"
@@ -144,9 +144,9 @@
             android:id="@+id/imageButton5"
             android:background="@drawable/telephone"
             android:contentDescription="@string/emergency"
-            android:layout_above="@+id/txtViewPanic"
-            android:layout_toLeftOf="@+id/imageView4"
-            android:layout_toStartOf="@+id/imageView4" />
+            android:layout_alignTop="@+id/imageButton4"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_alignStart="@+id/imageView2" />
 
         <ImageButton
             android:onClick="imagen"
@@ -231,27 +231,25 @@
             android:layout_marginRight="8dp"/>
 
         <TextView
-            android:text="@string/panic"
+            android:text="@string/emergency"
             android:id="@+id/txtViewPanic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
-            android:layout_above="@+id/imageView5"
-            android:layout_alignLeft="@+id/imageView5"
-            android:layout_alignStart="@+id/imageView5"
-            android:layout_marginBottom="25dp"
-            android:layout_marginLeft="7dp"/>
+            android:layout_below="@+id/imageButton5"
+            android:layout_alignLeft="@+id/imageButton4"
+            android:layout_alignStart="@+id/imageButton4" />
 
         <TextView
-            android:text="@string/emergency"
+            android:text="@string/Info"
             android:id="@+id/txtViewEmergency"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
-            android:layout_above="@+id/txtViewPanic"
+            android:layout_alignBaseline="@+id/txtViewPanic"
+            android:layout_alignBottom="@+id/txtViewPanic"
             android:layout_toLeftOf="@+id/imageView4"
-            android:layout_toStartOf="@+id/imageView4"
-            android:layout_marginBottom="-15dp"/>
+            android:layout_toStartOf="@+id/imageView4" />
 
         <TextView
             android:text="@string/events"
@@ -283,11 +281,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
-            android:layout_alignTop="@+id/imageButton5"
-            android:layout_alignRight="@+id/txtViewReports"
-            android:layout_alignEnd="@+id/txtViewReports"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="75dp"/>
+            android:layout_alignTop="@+id/txtViewEmergency"
+            android:layout_alignRight="@+id/imageView7"
+            android:layout_alignEnd="@+id/imageView7" />
 
         <TextView
             android:text="@string/contacts"
