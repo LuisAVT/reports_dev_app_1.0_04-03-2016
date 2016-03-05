@@ -4,15 +4,10 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Intent;
-import android.media.Image;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.ImageButton;
-import android.widget.Button;
-import android.widget.ImageView;
-
 
 public class mainActivity extends Activity implements View.OnClickListener {
 
@@ -115,7 +110,7 @@ public class mainActivity extends Activity implements View.OnClickListener {
                 startActivity(intent4);
                 break;
             case R.id.imageButton6:
-                Intent intent5 = new Intent(this,mapa.class);
+                Intent intent5 = new Intent(this, MapsActivity.class);
                 startActivity(intent5);
                 break;
             case R.id.imageButton7:
