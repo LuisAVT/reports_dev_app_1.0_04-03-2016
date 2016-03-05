@@ -4,15 +4,10 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Intent;
-import android.media.Image;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.ImageButton;
-import android.widget.Button;
-import android.widget.ImageView;
-
 
 public class mainActivity extends Activity implements View.OnClickListener {
 
@@ -92,15 +87,15 @@ public class mainActivity extends Activity implements View.OnClickListener {
         switch (v.getId()){
 
             case R.id.imageButton:
-                Intent intent = new Intent(this,news.class);
+                Intent intent = new Intent(this, news.class);
                 startActivity(intent);
                 break;
             case R.id.imageButton2:
-                Intent intent1 = new Intent(this,Activity_Denu.class);
+                Intent intent1 = new Intent(this, Activity_Denu.class);
                 startActivity(intent1);
                 break;
             case R.id.imageButton3:
-                Intent intent2 = new Intent(this,reportes.class);
+                Intent intent2 = new Intent(this, reportes.class);
                 startActivity(intent2);
                 break;
             case R.id.imageButton4:
@@ -111,11 +106,11 @@ public class mainActivity extends Activity implements View.OnClickListener {
                 //startActivity(intent3);
                 break;
             case R.id.imageButton5:
-                Intent intent4 = new Intent(this,emerg.class);
+                Intent intent4 = new Intent(this, emerg.class);
                 startActivity(intent4);
                 break;
             case R.id.imageButton6:
-                Intent intent5 = new Intent(this,mapa.class);
+                Intent intent5 = new Intent(this, MapsActivity.class);
                 startActivity(intent5);
                 break;
             case R.id.imageButton7:
