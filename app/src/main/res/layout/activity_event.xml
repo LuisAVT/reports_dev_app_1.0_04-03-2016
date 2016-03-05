@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="escobedo.jnix.escobedo.event"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eventos"
+            android:background="#d63838"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textStyle="bold|normal"
+            android:id="@+id/textView16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/news"
+            android:background="#9f9f9f"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView29"
+            android:textSize="19dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nove1"
+            android:id="@+id/textView28"
+            android:layout_below="@+id/textView29"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="64dp"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold|normal"
+            android:background="#e6d985" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nove2"
+            android:id="@+id/textView30"
+            android:textColor="#000000"
+            android:textStyle="bold|normal"
+            android:textSize="17dp"
+            android:layout_marginTop="34dp"
+            android:background="#e6d985"
+            android:layout_below="@+id/textView28"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nove3"
+            android:id="@+id/textView31"
+            android:layout_marginTop="37dp"
+            android:background="#e6d985"
+            android:textColor="#000000"
+            android:textStyle="bold|normal"
+            android:textSize="17dp"
+            android:layout_below="@+id/textView30"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nove4"
+            android:id="@+id/textView32"
+            android:background="#e6d985"
+            android:textStyle="bold|normal"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="@string/hello2"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#FFD63838"/>
+
+    <TextView
+        android:text="@string/hello1"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="#FFD63838"/>
+
+</android.support.v4.widget.DrawerLayout>

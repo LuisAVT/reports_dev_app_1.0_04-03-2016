@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="escobedo.jnix.escobedo.DenuBaches"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reporte"
+            android:background="#d63838"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textStyle="bold|normal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView26" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/baches"
+            android:id="@+id/textView25"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold|normal"
+            android:layout_below="@+id/textView26"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/repo"
+            android:id="@+id/textView27"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:background="#afaeae"
+            android:layout_below="@+id/textView25"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/comentario"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="94dp"
+            android:id="@+id/editText4"
+            android:textColor="#000000"
+            android:layout_below="@+id/imageView" />
+
+        <ImageView
+            android:layout_width="270dp"
+            android:layout_height="250dp"
+            android:background="@drawable/bache"
+            android:id="@+id/imageView"
+            android:layout_below="@+id/textView27"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Enviar"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/button2" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Tomar fotografia"
+            android:layout_above="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="@string/hello2"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#FFD63838"/>
+
+    <TextView
+        android:text="@string/hello1"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="#FFD63838"/>
+
+</android.support.v4.widget.DrawerLayout>
