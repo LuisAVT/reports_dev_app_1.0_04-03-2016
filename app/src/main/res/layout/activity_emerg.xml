@@ -16,7 +16,7 @@
             android:background="#d63838"
             android:textColor="#ffffff"
             android:gravity="center_horizontal"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textStyle="bold|normal"
             android:id="@+id/textView17" />
 
@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageButton20"
-            android:background="@drawable/incendio"
+            android:background="@drawable/bomberosnl"
             android:layout_marginTop="24dp"
             android:layout_below="@+id/imageButton19"
             android:layout_alignLeft="@+id/imageButton19"
@@ -44,73 +44,53 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageButton21"
-            android:background="@drawable/emergencia"
-            android:layout_marginLeft="26dp"
-            android:layout_marginStart="26dp"
+            android:background="@drawable/secretariadesalud"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="24dp"
             android:layout_below="@+id/imageButton20"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="31dp" />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton22"
-            android:background="@drawable/denu"
-            android:layout_marginBottom="33dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignLeft="@+id/imageButton21"
-            android:layout_alignStart="@+id/imageButton21" />
+            android:layout_alignParentStart="false" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cruz"
             android:textColor="#000000"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:id="@+id/textView21"
             android:layout_marginLeft="57dp"
             android:layout_marginStart="57dp"
-            android:layout_marginBottom="29dp"
-            android:layout_alignBottom="@+id/imageButton19"
+            android:layout_alignTop="@+id/imageButton19"
             android:layout_toRightOf="@+id/imageButton19"
-            android:layout_toEndOf="@+id/imageButton19" />
+            android:layout_toEndOf="@+id/imageButton19"
+            android:layout_marginTop="34dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/bombe"
             android:textColor="#000000"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:id="@+id/textView22"
-            android:layout_marginBottom="23dp"
             android:layout_alignBottom="@+id/imageButton20"
             android:layout_alignLeft="@+id/textView21"
-            android:layout_alignStart="@+id/textView21" />
+            android:layout_alignStart="@+id/textView21"
+            android:layout_marginBottom="34dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/emer"
+            android:text="@string/Health_Secretary"
             android:textColor="#000000"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:id="@+id/textView23"
-            android:layout_marginTop="28dp"
+            android:linksClickable="false"
             android:layout_alignTop="@+id/imageButton21"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
             android:layout_alignLeft="@+id/textView22"
             android:layout_alignStart="@+id/textView22" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/denus"
-            android:id="@+id/textView24"
-            android:textColor="#000000"
-            android:textSize="25dp"
-            android:layout_alignTop="@+id/imageButton22"
-            android:layout_alignLeft="@+id/textView23"
-            android:layout_alignStart="@+id/textView23"
-            android:layout_marginTop="29dp" />
 
 
     </RelativeLayout>

@@ -100,13 +100,12 @@ public class mainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.imageButton4:
 
-                onCreateDialog(0).show();
-
-                //Intent intent3 = new Intent(this,panic.class);
-                //startActivity(intent3);
+                //onCreateDialog(0).show();
+                Intent intent3 = new Intent(this,emerg.class);
+                startActivity(intent3);
                 break;
             case R.id.imageButton5:
-                Intent intent4 = new Intent(this, emerg.class);
+                Intent intent4 = new Intent(this,Recomendations.class);
                 startActivity(intent4);
                 break;
             case R.id.imageButton6:

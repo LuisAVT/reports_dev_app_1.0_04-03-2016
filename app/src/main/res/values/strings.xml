@@ -6,7 +6,7 @@
     <string name="reports">Reportes</string>
     <string name="panic">Panico</string>
     <string name="emergency">Emergencia</string>
-    <string name="Info">Información</string>
+    <string name="Info">Recomendaciones</string>
     <string name="map">Mapa</string>
     <string name="events">Eventos</string>
     <string name="red">Redes</string>
@@ -18,8 +18,8 @@
     <string name="contra">Contraseña</string>
     <string name="noti">NOTICIAS</string>
     <string name="txtdeFotoNews">Nuevo Comandante en la 45 zona militar</string>
-    <string name="txtdeFotoNews2">El secretario de Seguridad Publica, Ernesto Munro Palacio, acudo este fin de semana en
-    representacion de Gobernador Guillermo Padres Elias a la posesion del mando y protesta de Ley del nuevo Comandante
+    <string name="txtdeFotoNews2">El secretario de Seguridad Publica, Ernesto Munro Palacio, acudió este fin de semana en
+    representacion de Gobernador Guillermo Padres Elias a la posesión del mando y protesta de Ley del nuevo Comandante
     de la zona 45 militar con sede en esta frontera</string>
     <string name="hello1">Drawer Two</string>
     <string name="hello2">Drawer One</string>
@@ -72,4 +72,13 @@
     <string name="nove4">- Disfruta este sabado 23 de diciembre de 2015 el gran evento organizado por Escobedo, conocido como Putas para todos harry,si llegas con un churro de mota se te regalara otro con la misma porcion de marihuana,LEGALICEN LA MARIHUANA!!! </string>
     <string name="comentario">Comentario</string>
     <string name="title_activity_maps">Map</string>
+    <string name="Health_Secretary">Secretaría de Salud</string>
+    <string name="title_activity_recomendations">Recomendations</string>
+    <string name="Recommendations">Recomendaciones</string>
+    <string name="Medidas_preventivas_zika">Consulta las medidas preventivas para evitar ser contagiado por el virus del Zika, que es causado por picadura del mosquito Aedes Aegypty.</string>
+    <string name="Recomendaciones_zika">Recomendaciones y síntomas: Zika</string>
+    <string name="Recomendaciones_dengue">Recomendaciones y síntomas: Dengue</string>
+    <string name="Elimina_cacharros">Elimina los cacharros del patio y techo, además de los depósitos que puedan acumular agua, ya que en ellos se reproduce el mosquito transmisor del dengue.</string>
+    <string name="Recomendaciones_chikungunya">Recomendaciones y síntomas: Chikungunya</string>
+    <string name="medidas_chikungunya">Consulta las medidas para prevenir este virus transmitido por el mosquito aedes aegypti y aedes albopictus, así como los síntomas de contagio.</string>
 </resources>
